@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import ast; ast.parse\\(open\\('src/my_agentic_rag/prompts.py', encoding='utf-8'\\).read\\(\\)\\); print\\('prompts.py OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('src/my_agentic_rag/rag_graph.py', encoding='utf-8'\\).read\\(\\)\\); print\\('rag_graph.py OK'\\)\")",
+      "Bash(python -c \"import sys; sys.path.insert\\(0, 'src'\\); from my_agentic_rag.prompts import HYDE_PROMPT, STEP_BACK_QUESTION_PROMPT; print\\('prompts imports OK'\\); print\\(f'HYDE_PROMPT length: {len\\(HYDE_PROMPT\\)}'\\); print\\(f'STEP_BACK_QUESTION_PROMPT length: {len\\(STEP_BACK_QUESTION_PROMPT\\)}'\\)\")",
+      "Bash(python -c \"import sys; sys.path.insert\\(0, 'src'\\); from my_agentic_rag.rag_graph import _generate_hypothetical_document, _generate_step_back_question, _merge_dedupe_docs; print\\('rag_graph helpers OK'\\)\")",
+      "Bash(echo \"exit: $?\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('src/my_agentic_rag/document_loader.py', encoding='utf-8'\\).read\\(\\)\\); print\\('document_loader.py OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('src/my_agentic_rag/config.py', encoding='utf-8'\\).read\\(\\)\\); print\\('config.py OK'\\)\")",
+      "Bash(python -c \"from langchain_text_splitters import RecursiveCharacterTextSplitter; s = RecursiveCharacterTextSplitter\\(separators=['\\\\n\\\\n','\\\\n','。','.'], chunk_size=100, chunk_overlap=20\\); result = s.split_text\\('第一段。\\\\n\\\\n第二段很长内容继续。\\\\n第三段'\\); print\\(f'Split into {len\\(result\\)} chunks:'\\); [print\\(f'  [{i}] {r[:60]}...'\\) for i, r in enumerate\\(result\\)]\")",
+      "Bash(python -c \"import sys; sys.path.insert\\(0, 'src'\\); from my_agentic_rag.document_loader import DocumentLoader; print\\('DocumentLoader import OK'\\); loader = DocumentLoader\\(\\); chunks = loader.chunk_document\\('第一段内容。\\\\n\\\\n第二段很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长内容。\\\\n\\\\n第三段继续，测试切分效果。第四段，更多内容在这里。', 'test'\\); print\\(f'Total chunks: {len\\(chunks\\)}'\\); l1 = [c for c in chunks if c[\\\\\"chunk_level\\\\\"]==1]; l2 = [c for c in chunks if c[\\\\\"chunk_level\\\\\"]==2]; l3 = [c for c in chunks if c[\\\\\"chunk_level\\\\\"]==3]; print\\(f'L1={len\\(l1\\)}, L2={len\\(l2\\)}, L3={len\\(l3\\)}'\\); print\\(f'First L3 text: {l3[0][\\\\\"text\\\\\"][:80] if l3 else \\\\\"N/A\\\\\"}'\\)\")",
+      "Bash(python -c ' *)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('src/my_agentic_rag/milvus_client.py', encoding='utf-8'\\).read\\(\\)\\); print\\('milvus_client.py OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('src/my_agentic_rag/rag_utils.py', encoding='utf-8'\\).read\\(\\)\\); print\\('rag_utils.py OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('tests/evaluate.py', encoding='utf-8'\\).read\\(\\)\\); print\\('evaluate.py OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('src/my_agentic_rag/main.py', encoding='utf-8'\\).read\\(\\)\\); print\\('main.py OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('src/my_agentic_rag/document_loader.py', encoding='utf-8'\\).read\\(\\)\\); print\\('OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('src/my_agentic_rag/config.py', encoding='utf-8'\\).read\\(\\)\\); print\\('OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('src/my_agentic_rag/rag_graph.py', encoding='utf-8'\\).read\\(\\)\\); print\\('OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('src/my_agentic_rag/prompts.py', encoding='utf-8'\\).read\\(\\)\\); print\\('OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('src/my_agentic_rag/__init__.py', encoding='utf-8'\\).read\\(\\)\\); print\\('OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('src/my_agentic_rag/vectorstore.py', encoding='utf-8'\\).read\\(\\)\\); print\\('OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('tests/evaluate.py', encoding='utf-8'\\).read\\(\\)\\); print\\('OK'\\)\")",
+      "Bash(python -c \"import ragas; print\\(ragas.__version__\\)\")",
+      "Bash(python -c \"from ragas.metrics import *; print\\([x for x in dir\\(\\) if not x.startswith\\('_'\\)]\\)\")",
+      "Bash(python -c \"from ragas.llms import LangchainLLMWrapper; print\\('OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('tests/evaluate.py',encoding='utf-8'\\).read\\(\\)\\);print\\('OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('src/my_agentic_rag/config.py',encoding='utf-8'\\).read\\(\\)\\);print\\('config OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('src/my_agentic_rag/prompts.py',encoding='utf-8'\\).read\\(\\)\\);print\\('prompts OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('src/my_agentic_rag/rag_graph.py',encoding='utf-8'\\).read\\(\\)\\);print\\('rag_graph OK'\\)\")",
+      "Read(//c/Users/gorde/.claude/**)"
+    ]
+  }
+}

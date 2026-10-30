@@ -1,0 +1,182 @@
+[
+  {
+    "query": "20257.1",
+    "standard_no": "GB/T 20257.1-2017",
+    "title": "国家基本比例尺地图图式 第1部分：1:500 1:1 000 1:2 000地形图图式",
+    "status": "现行",
+    "publish_date": "2017-10-14",
+    "implement_date": "2018-05-01",
+    "hcno": "79A910C639883356F324E7A6DCC0C289",
+    "detail_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=79A910C639883356F324E7A6DCC0C289"
+  },
+  {
+    "query": "20257.2",
+    "standard_no": "GB/T 20257.2-2017",
+    "title": "国家基本比例尺地图图式 第2部分：1:5 000 1:10 000地形图图式",
+    "status": "现行",
+    "publish_date": "2017-10-14",
+    "implement_date": "2018-05-01",
+    "hcno": "DC96086D46F32B79F235AD44E042F589",
+    "detail_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=DC96086D46F32B79F235AD44E042F589"
+  },
+  {
+    "query": "20257.3",
+    "standard_no": "GB/T 20257.3-2017",
+    "title": "国家基本比例尺地图图式 第3部分：1:25 000 1:50 000 1:100 000地形图图式",
+    "status": "现行",
+    "publish_date": "2017-10-14",
+    "implement_date": "2018-05-01",
+    "hcno": "288C537E66D4001BD11CBCEFF0FBE3C5",
+    "detail_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=288C537E66D4001BD11CBCEFF0FBE3C5"
+  },
+  {
+    "query": "20257.4",
+    "standard_no": "GB/T 20257.4-2017",
+    "title": "国家基本比例尺地图图式 第4部分：1:250 000 1:500 000 1:1 000 000地形图图式",
+    "status": "现行",
+    "publish_date": "2017-10-14",
+    "implement_date": "2018-05-01",
+    "hcno": "A10C755C261309F52BC8EF4D463FD6D9",
+    "detail_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=A10C755C261309F52BC8EF4D463FD6D9"
+  },
+  {
+    "query": "7930-2008",
+    "standard_no": "GB/T 7930-2008",
+    "title": "1:500  1:1 000  1:2 000 地形图航空摄影测量内业规范",
+    "status": "现行",
+    "publish_date": "2008-06-20",
+    "implement_date": "2008-12-01",
+    "hcno": "ED7873FD4FC27CA303C8FE86809381C1",
+    "detail_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=ED7873FD4FC27CA303C8FE86809381C1"
+  },
+  {
+    "query": "7931-2008",
+    "standard_no": "GB/T 7931-2008",
+    "title": "1:500  1:1 000  1:2 000 地形图航空摄影测量外业规范",
+    "status": "现行",
+    "publish_date": "2008-06-20",
+    "implement_date": "2008-12-01",
+    "hcno": "946061636E2647A1FF02D0D6A30E0C08",
+    "detail_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=946061636E2647A1FF02D0D6A30E0C08"
+  },
+  {
+    "query": "18314",
+    "standard_no": "GB/T 18314-2024",
+    "title": "全球导航卫星系统（GNSS）测量规范",
+    "status": "现行",
+    "publish_date": "2024-08-23",
+    "implement_date": "2025-03-01",
+    "hcno": "AACB150BD9C8D5B2B5328A3251FCCFA2",
+    "detail_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=AACB150BD9C8D5B2B5328A3251FCCFA2"
+  },
+  {
+    "query": "12898",
+    "standard_no": "GB/T 12898-2009",
+    "title": "国家三、四等水准测量规范",
+    "status": "现行",
+    "publish_date": "2009-05-06",
+    "implement_date": "2009-10-01",
+    "hcno": "20960F0E225029EA4280C7EF01C38216",
+    "detail_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=20960F0E225029EA4280C7EF01C38216"
+  },
+  {
+    "query": "24356",
+    "standard_no": "GB/T 24356-2023",
+    "title": "测绘成果质量检查与验收",
+    "status": "现行",
+    "publish_date": "2023-05-23",
+    "implement_date": "2023-05-23",
+    "hcno": "2874EFAC7523FB293E6AF2E4068CEB02",
+    "detail_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=2874EFAC7523FB293E6AF2E4068CEB02"
+  },
+  {
+    "query": "18316",
+    "standard_no": "GB/T 18316-2008",
+    "title": "数字测绘成果质量检查与验收",
+    "status": "现行",
+    "publish_date": "2008-07-02",
+    "implement_date": "2008-12-01",
+    "hcno": "A54309159F33897F621FB0F3246F8EF0",
+    "detail_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=A54309159F33897F621FB0F3246F8EF0"
+  },
+  {
+    "query": "17941",
+    "standard_no": "GB/T 17941-2008",
+    "title": "数字测绘成果质量要求",
+    "status": "现行",
+    "publish_date": "2008-06-20",
+    "implement_date": "2008-12-01",
+    "hcno": "AA2A4EDAAA3346FF464C15FD7EF02129",
+    "detail_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=AA2A4EDAAA3346FF464C15FD7EF02129"
+  },
+  {
+    "query": "19710",
+    "standard_no": "GB/T 19710.1-2023",
+    "title": "地理信息 元数据 第1部分:基础",
+    "status": "现行",
+    "publish_date": "2023-11-27",
+    "implement_date": "2023-11-27",
+    "hcno": "2C26A46824D70DF3FFA6161ED86908F4",
+    "detail_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=2C26A46824D70DF3FFA6161ED86908F4"
+  },
+  {
+    "query": "19710",
+    "standard_no": "GB/T 19710.2-2016",
+    "title": "地理信息  元数据  第2部分：影像和格网数据扩展",
+    "status": "现行",
+    "publish_date": "2016-10-13",
+    "implement_date": "2017-02-01",
+    "hcno": "523393408DC82F77EFB31E97DD2B1D85",
+    "detail_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=523393408DC82F77EFB31E97DD2B1D85"
+  },
+  {
+    "query": "21010",
+    "standard_no": "GB/T 21010-2017",
+    "title": "土地利用现状分类",
+    "status": "现行",
+    "publish_date": "2017-11-01",
+    "implement_date": "2017-11-01",
+    "hcno": "224BF9DA69F053DA22AC758AAAADEEAA",
+    "detail_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=224BF9DA69F053DA22AC758AAAADEEAA"
+  },
+  {
+    "query": "20258.1",
+    "standard_no": "GB/T 20258.1-2019",
+    "title": "基础地理信息要素数据字典 第1部分：1:500 1:1000 1:2000比例尺",
+    "status": "现行",
+    "publish_date": "2019-03-25",
+    "implement_date": "2019-10-01",
+    "hcno": "8AF95940948272D5E7F09E772BD28508",
+    "detail_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=8AF95940948272D5E7F09E772BD28508"
+  },
+  {
+    "query": "13989",
+    "standard_no": "GB/T 13989-2012",
+    "title": "国家基本比例尺地形图分幅和编号",
+    "status": "现行",
+    "publish_date": "2012-06-29",
+    "implement_date": "2012-10-01",
+    "hcno": "30799A9AF9BFA98E77D21ABC5F0984E2",
+    "detail_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=30799A9AF9BFA98E77D21ABC5F0984E2"
+  },
+  {
+    "query": "17798",
+    "standard_no": "GB/T 17798-2007",
+    "title": "地理空间数据交换格式",
+    "status": "现行",
+    "publish_date": "2007-08-30",
+    "implement_date": "2007-12-01",
+    "hcno": "6AD3DDCADBA1B834BD2D863F5A681815",
+    "detail_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=6AD3DDCADBA1B834BD2D863F5A681815"
+  },
+  {
+    "query": "14911",
+    "standard_no": "GB/T 14911-2008",
+    "title": "测绘基本术语",
+    "status": "现行",
+    "publish_date": "2008-06-20",
+    "implement_date": "2008-12-01",
+    "hcno": "A6E5D60CA321C2C78566C0593013BD42",
+    "detail_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=A6E5D60CA321C2C78566C0593013BD42"
+  }
+]

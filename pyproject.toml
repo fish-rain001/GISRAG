@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my-agentic-rag"
+version = "0.1.0"
+description = "Agentic RAG with hybrid search (dense + sparse)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain",
+    "langchain_anthropic",
+    "langchain_huggingface",
+    "langchain_text_splitters",
+    "pymilvus",
+    "numpy",
+    "python-dotenv",
+    "requests",
+    "sentence-transformers",
+    "beautifulsoup4",
+    "lxml",
+    "python-docx",
+    "pdfplumber",
+    "pandas",
+    "openpyxl",
+    # Agent 层：stdio MCP 客户端 + 工具参数校验
+    "mcp>=1.2.0,<2",
+    "jsonschema>=4.0.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
